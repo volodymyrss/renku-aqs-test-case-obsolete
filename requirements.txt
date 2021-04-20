@@ -1,0 +1,4 @@
+nb2workflow[service,cwl,rdf]
+astropy
+astroquery-integral==0.1.1
+matplotlib
