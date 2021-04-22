@@ -1,6 +1,15 @@
 # oda-sdss
 
+|||
+| :-- | :-- |
+| **Latest-Vesion** | https://renkulab.io/gitlab/vladimir.savchenko/oda-sdss |
+
+Please make any further updates to the latest version in here: https://renkulab.io/gitlab/vladimir.savchenko/oda-sdss
+
 ## Introduction
+
+This is an example renku project.
+
 
 This is a Renku project - basically a git repository with some
 bells and whistles. You'll find we have already created some
