@@ -2,6 +2,8 @@ figs/figure_sky.png:
   1e7e265edf3fb7b5390125b35d5d8095d8bc059e:
   - .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml
 figs/figure_sky_model.png:
+  11a588e3c55fbe88cf7c3e0c9b19b68054deda23:
+  - .renku/workflow/435b12cdbebe4ee68bc5797c9205ae11_papermill.yaml
   1e7e265edf3fb7b5390125b35d5d8095d8bc059e:
   - .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml
 figs/figure_spectrum.png:
@@ -11,5 +13,7 @@ figs/figure_time.png:
   1e7e265edf3fb7b5390125b35d5d8095d8bc059e:
   - .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml
 out.ipynb:
+  11a588e3c55fbe88cf7c3e0c9b19b68054deda23:
+  - .renku/workflow/435b12cdbebe4ee68bc5797c9205ae11_papermill.yaml
   1e7e265edf3fb7b5390125b35d5d8095d8bc059e:
   - .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml
