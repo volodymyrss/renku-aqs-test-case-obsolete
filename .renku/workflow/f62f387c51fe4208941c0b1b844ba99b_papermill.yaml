@@ -1,0 +1,282 @@
+- '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.0
+  '@type':
+  - http://purl.org/wf4ever/wfprov#WorkflowEngine
+  - http://www.w3.org/ns/prov#SoftwareAgent
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': renku 0.14.0
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  '@type':
+  - http://purl.org/wf4ever/wfprov#ProcessRun
+  - http://www.w3.org/ns/prov#Activity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#comment:
+  - '@value': 'renku run: committing 5 newly added files'
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml@1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml
+  http://www.w3.org/ns/prov#endedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-04-28T08:49:11+00:00'
+  http://www.w3.org/ns/prov#influenced: []
+  http://www.w3.org/ns/prov#qualifiedAssociation:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/association
+  http://www.w3.org/ns/prov#qualifiedUsage:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/inputs/1
+  http://www.w3.org/ns/prov#startedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-04-28T08:49:11+00:00'
+  http://www.w3.org/ns/prov#wasAssociatedWith:
+  - '@id': mailto:vladimir.savchenko@gmail.com
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.0
+  http://www.w3.org/ns/prov#wasInformedBy:
+  - '@id': https://localhost/activities/commit/500404495802da8e1cac7dc62f7a4888ac7c0b11
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameter: []
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/association
+  '@type':
+  - http://www.w3.org/ns/prov#Association
+  http://www.w3.org/ns/prov#agent:
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.0
+  http://www.w3.org/ns/prov#hadPlan:
+  - '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/inputs/1
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/3053ac297af93f3f8110ca732a3df0a7282b124c/final-an.ipynb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/1
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/05b911946cd84427b764870577692608
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/05b911946cd84427b764870577692608
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/2
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/2
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/6faf8cd30d964a1c9853cd2d60e793b0
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/6faf8cd30d964a1c9853cd2d60e793b0
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/7472a632adc144ba9847565ba45cae1c
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/7472a632adc144ba9847565ba45cae1c
+- '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/c7473aef236f4fdfaa15c20065dc5551
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/c7473aef236f4fdfaa15c20065dc5551
+- '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_sky.png
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': figs/figure_sky.png@1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': figs/figure_sky.png
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/c7473aef236f4fdfaa15c20065dc5551
+- '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_sky_model.png
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': figs/figure_sky_model.png@1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': figs/figure_sky_model.png
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/7472a632adc144ba9847565ba45cae1c
+- '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_spectrum.png
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': figs/figure_spectrum.png@1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': figs/figure_spectrum.png
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/6faf8cd30d964a1c9853cd2d60e793b0
+- '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_time.png
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': figs/figure_time.png@1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': figs/figure_time.png
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/05b911946cd84427b764870577692608
+- '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/out.ipynb
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': out.ipynb@1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': out.ipynb
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/outputs/2
+- '@id': https://renkulab.io/blob/3053ac297af93f3f8110ca732a3df0a7282b124c/final-an.ipynb
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': final-an.ipynb@3053ac297af93f3f8110ca732a3df0a7282b124c
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': final-an.ipynb
+- '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  '@type':
+  - http://schema.org/Project
+  - http://www.w3.org/ns/prov#Location
+  http://schema.org/agent:
+  - '@value': 0.14.0
+  http://schema.org/creator:
+  - '@id': mailto:vladimir.savchenko@gmail.com
+  http://schema.org/dateCreated:
+  - '@value': '2021-03-17T13:20:14.859519+00:00'
+  http://schema.org/name:
+  - '@value': oda-sdss
+  http://schema.org/schemaVersion:
+  - '@value': '8'
+  https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+  https://swissdatasciencecenter.github.io/renku-ontology#templateId:
+  - '@value': python-minimal
+  https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata:
+  - '@value': '{"__template_source__": "https://github.com/SwissDataScienceCenter/renku-project-template",
+      "__template_ref__": "0.1.17", "__template_id__": "python-minimal", "__namespace__":
+      "vladimir.savchenko", "__automated_update__": true, "__repository__": "https://renkulab.io/gitlab",
+      "__sanitized_project_name__": "oda-sdss", "__project_slug__": "vladimir.savchenko/oda-sdss",
+      "description": "", "name": "oda-sdss"}'
+  https://swissdatasciencecenter.github.io/renku-ontology#templateReference:
+  - '@value': 0.1.17
+  https://swissdatasciencecenter.github.io/renku-ontology#templateSource:
+  - '@value': https://github.com/SwissDataScienceCenter/renku-project-template
+  https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
+  - '@value': 73db625bf5d9effa1d76a4e5e1fcbcb1a927f654
+- '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486
+  '@type':
+  - http://www.w3.org/ns/prov#Entity
+  - http://www.w3.org/ns/prov#Plan
+  - https://swissdatasciencecenter.github.io/renku-ontology#Run
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml@1e7e265edf3fb7b5390125b35d5d8095d8bc059e
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml
+  https://swissdatasciencecenter.github.io/renku-ontology#command:
+  - '@value': papermill
+  https://swissdatasciencecenter.github.io/renku-ontology#hasArguments: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasInputs:
+  - '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/inputs/1
+  https://swissdatasciencecenter.github.io/renku-ontology#hasOutputs:
+  - '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/c7473aef236f4fdfaa15c20065dc5551
+  - '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/2
+  - '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/05b911946cd84427b764870577692608
+  - '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/7472a632adc144ba9847565ba45cae1c
+  - '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/6faf8cd30d964a1c9853cd2d60e793b0
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameters: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasSubprocess: []
+  https://swissdatasciencecenter.github.io/renku-ontology#successCodes: []
+- '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/inputs/1
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "final-an.ipynb"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/3053ac297af93f3f8110ca732a3df0a7282b124c/final-an.ipynb
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 1
+- '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/05b911946cd84427b764870577692608
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "figs/figure_time.png"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_time.png
+- '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/2
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "out.ipynb"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': true
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 2
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/out.ipynb
+- '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/6faf8cd30d964a1c9853cd2d60e793b0
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "figs/figure_spectrum.png"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_spectrum.png
+- '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/7472a632adc144ba9847565ba45cae1c
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "figs/figure_sky_model.png"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_sky_model.png
+- '@id': https://renkulab.io/runs/793a2e62-55eb-4ae9-878a-36cc8f115486/outputs/c7473aef236f4fdfaa15c20065dc5551
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "figs/figure_sky.png"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/1e7e265edf3fb7b5390125b35d5d8095d8bc059e/figs/figure_sky.png
+- '@id': mailto:vladimir.savchenko@gmail.com
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/email:
+  - '@value': vladimir.savchenko@gmail.com
+  http://schema.org/name:
+  - '@value': Volodymyr Savchenko
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Volodymyr Savchenko
