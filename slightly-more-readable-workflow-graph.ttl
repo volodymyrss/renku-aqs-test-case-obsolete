@@ -1,0 +1,170 @@
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <http://www.w3.org/ns/prov#> .
+@prefix ns3: <https://swissdatasciencecenter.github.io/renku-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/association> a ns2:Association ;
+    ns2:agent <https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.2> ;
+    ns2:hadPlan <https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5> .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/inputs/1> a ns2:Usage ;
+    ns2:entity <https://renkulab.io/blob/3053ac297af93f3f8110ca732a3df0a7282b124c/final-an.ipynb> ;
+    ns2:hadRole "inputs/1" .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/2> a ns2:Generation ;
+    ns2:activity <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1> ;
+    ns2:hadRole "outputs/2" .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/35072a8d8a1542ff8f3d098f1a8a82fb> a ns2:Generation ;
+    ns2:activity <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1> ;
+    ns2:hadRole "outputs/35072a8d8a1542ff8f3d098f1a8a82fb" .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/6ceed225cd964f38a1b3544469163d51> a ns2:Generation ;
+    ns2:activity <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1> ;
+    ns2:hadRole "outputs/6ceed225cd964f38a1b3544469163d51" .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/72a049381f33444b8f1097010721c93f> a ns2:Generation ;
+    ns2:activity <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1> ;
+    ns2:hadRole "outputs/72a049381f33444b8f1097010721c93f" .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/ddc55103581e4bfeabb302e949a3df96> a ns2:Generation ;
+    ns2:activity <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1> ;
+    ns2:hadRole "outputs/ddc55103581e4bfeabb302e949a3df96" .
+
+<https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_sky.png> a <http://purl.org/wf4ever/wfprov#Artifact>,
+        ns2:Entity ;
+    rdfs:label "figs/figure_sky.png@28f759398fafc518a81c3fa8d1779473eb2d9ba1" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    ns2:atLocation "figs/figure_sky.png" ;
+    ns2:qualifiedGeneration <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/72a049381f33444b8f1097010721c93f> .
+
+<https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_sky_model.png> a <http://purl.org/wf4ever/wfprov#Artifact>,
+        ns2:Entity ;
+    rdfs:label "figs/figure_sky_model.png@28f759398fafc518a81c3fa8d1779473eb2d9ba1" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    ns2:atLocation "figs/figure_sky_model.png" ;
+    ns2:qualifiedGeneration <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/ddc55103581e4bfeabb302e949a3df96> .
+
+<https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_spectrum.png> a <http://purl.org/wf4ever/wfprov#Artifact>,
+        ns2:Entity ;
+    rdfs:label "figs/figure_spectrum.png@28f759398fafc518a81c3fa8d1779473eb2d9ba1" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    ns2:atLocation "figs/figure_spectrum.png" ;
+    ns2:qualifiedGeneration <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/6ceed225cd964f38a1b3544469163d51> .
+
+<https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_time.png> a <http://purl.org/wf4ever/wfprov#Artifact>,
+        ns2:Entity ;
+    rdfs:label "figs/figure_time.png@28f759398fafc518a81c3fa8d1779473eb2d9ba1" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    ns2:atLocation "figs/figure_time.png" ;
+    ns2:qualifiedGeneration <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/35072a8d8a1542ff8f3d098f1a8a82fb> .
+
+<https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/out.ipynb> a <http://purl.org/wf4ever/wfprov#Artifact>,
+        ns2:Entity ;
+    rdfs:label "out.ipynb@28f759398fafc518a81c3fa8d1779473eb2d9ba1" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    ns2:atLocation "out.ipynb" ;
+    ns2:qualifiedGeneration <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/outputs/2> .
+
+<https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5> a ns2:Entity,
+        ns2:Plan,
+        ns3:Run ;
+    rdfs:label ".renku/workflow/7acf0cda2ab449a1a321adbd0a361b75_papermill.yaml@28f759398fafc518a81c3fa8d1779473eb2d9ba1" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    ns2:atLocation ".renku/workflow/7acf0cda2ab449a1a321adbd0a361b75_papermill.yaml" ;
+    ns3:command "papermill" ;
+    ns3:hasInputs <https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/inputs/1> ;
+    ns3:hasOutputs <https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/2>,
+        <https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/35072a8d8a1542ff8f3d098f1a8a82fb>,
+        <https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/6ceed225cd964f38a1b3544469163d51>,
+        <https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/72a049381f33444b8f1097010721c93f>,
+        <https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/ddc55103581e4bfeabb302e949a3df96> .
+
+<https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/inputs/1> a ns3:CommandInput,
+        ns3:CommandParameter ;
+    rdfs:label "Command Input \"final-an.ipynb\"" ;
+    ns3:consumes <https://renkulab.io/blob/3053ac297af93f3f8110ca732a3df0a7282b124c/final-an.ipynb> ;
+    ns3:position 1 .
+
+<https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/2> a ns3:CommandOutput,
+        ns3:CommandParameter ;
+    rdfs:label "Command Output \"out.ipynb\"" ;
+    ns3:createFolder true ;
+    ns3:position 2 ;
+    ns3:produces <https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/out.ipynb> .
+
+<https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/35072a8d8a1542ff8f3d098f1a8a82fb> a ns3:CommandOutput,
+        ns3:CommandParameter ;
+    rdfs:label "Command Output \"figs/figure_time.png\"" ;
+    ns3:createFolder false ;
+    ns3:produces <https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_time.png> .
+
+<https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/6ceed225cd964f38a1b3544469163d51> a ns3:CommandOutput,
+        ns3:CommandParameter ;
+    rdfs:label "Command Output \"figs/figure_spectrum.png\"" ;
+    ns3:createFolder false ;
+    ns3:produces <https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_spectrum.png> .
+
+<https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/72a049381f33444b8f1097010721c93f> a ns3:CommandOutput,
+        ns3:CommandParameter ;
+    rdfs:label "Command Output \"figs/figure_sky.png\"" ;
+    ns3:createFolder false ;
+    ns3:produces <https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_sky.png> .
+
+<https://renkulab.io/runs/67d17c7f-fa85-4659-be8a-9c74cf9c96e5/outputs/ddc55103581e4bfeabb302e949a3df96> a ns3:CommandOutput,
+        ns3:CommandParameter ;
+    rdfs:label "Command Output \"figs/figure_sky_model.png\"" ;
+    ns3:createFolder false ;
+    ns3:produces <https://renkulab.io/blob/28f759398fafc518a81c3fa8d1779473eb2d9ba1/figs/figure_sky_model.png> .
+
+<mailto:contact@volodymyrsavchenko.com> a ns1:Person,
+        ns2:Person ;
+    rdfs:label "Volodymyr Savchenko" ;
+    ns1:email "contact@volodymyrsavchenko.com" ;
+    ns1:name "Volodymyr Savchenko" .
+
+<mailto:vladimir.savchenko@gmail.com> a ns1:Person,
+        ns2:Person ;
+    rdfs:label "Volodymyr Savchenko" ;
+    ns1:email "vladimir.savchenko@gmail.com" ;
+    ns1:name "Volodymyr Savchenko" .
+
+<https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.2> a <http://purl.org/wf4ever/wfprov#WorkflowEngine>,
+        ns2:SoftwareAgent ;
+    rdfs:label "renku 0.14.2" .
+
+<https://renkulab.io/blob/3053ac297af93f3f8110ca732a3df0a7282b124c/final-an.ipynb> a <http://purl.org/wf4ever/wfprov#Artifact>,
+        ns2:Entity ;
+    rdfs:label "final-an.ipynb@3053ac297af93f3f8110ca732a3df0a7282b124c" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    ns2:atLocation "final-an.ipynb" .
+
+<https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1> a <http://purl.org/wf4ever/wfprov#ProcessRun>,
+        ns2:Activity ;
+    rdfs:label ".renku/workflow/7acf0cda2ab449a1a321adbd0a361b75_papermill.yaml@28f759398fafc518a81c3fa8d1779473eb2d9ba1" ;
+    ns1:isPartOf <https://renkulab.io/projects/vladimir.savchenko/oda-sdss> ;
+    rdfs:comment "renku run: committing 5 newly added files" ;
+    ns2:atLocation ".renku/workflow/7acf0cda2ab449a1a321adbd0a361b75_papermill.yaml" ;
+    ns2:endedAtTime "2021-04-28T10:42:33+02:00"^^xsd:dateTime ;
+    ns2:qualifiedAssociation <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/association> ;
+    ns2:qualifiedUsage <https://localhost/activities/commit/28f759398fafc518a81c3fa8d1779473eb2d9ba1/inputs/1> ;
+    ns2:startedAtTime "2021-04-28T10:42:33+02:00"^^xsd:dateTime ;
+    ns2:wasAssociatedWith <https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.2>,
+        <mailto:contact@volodymyrsavchenko.com> ;
+    ns2:wasInformedBy <https://localhost/activities/commit/500404495802da8e1cac7dc62f7a4888ac7c0b11> .
+
+<https://renkulab.io/projects/vladimir.savchenko/oda-sdss> a ns1:Project,
+        ns2:Location ;
+    ns1:agent "0.14.0" ;
+    ns1:creator <mailto:vladimir.savchenko@gmail.com> ;
+    ns1:dateCreated "2021-03-17T13:20:14.859519+00:00" ;
+    ns1:name "oda-sdss" ;
+    ns1:schemaVersion "8" ;
+    ns3:automatedTemplateUpdate false ;
+    ns3:templateId "python-minimal" ;
+    ns3:templateMetadata "{\"__template_source__\": \"https://github.com/SwissDataScienceCenter/renku-project-template\", \"__template_ref__\": \"0.1.17\", \"__template_id__\": \"python-minimal\", \"__namespace__\": \"vladimir.savchenko\", \"__automated_update__\": true, \"__repository__\": \"https://renkulab.io/gitlab\", \"__sanitized_project_name__\": \"oda-sdss\", \"__project_slug__\": \"vladimir.savchenko/oda-sdss\", \"description\": \"\", \"name\": \"oda-sdss\"}" ;
+    ns3:templateReference "0.1.17" ;
+    ns3:templateSource "https://github.com/SwissDataScienceCenter/renku-project-template" ;
+    ns3:templateVersion "73db625bf5d9effa1d76a4e5e1fcbcb1a927f654" .
+
