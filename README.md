@@ -8,7 +8,7 @@ Please make any further updates to the latest version in here: https://renkulab.
 
 ## Introduction
 
-This is an example renku project.
+This is an example renku-oda project.
 
 
 This is a Renku project - basically a git repository with some
