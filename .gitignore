@@ -335,6 +335,3 @@ tags
 .renku.lock
 .renku/tmp
 .renku/cache
-
-# figures
-figs
