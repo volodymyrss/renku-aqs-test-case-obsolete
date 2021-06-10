@@ -20,9 +20,13 @@ out.ipynb:
 site.py:
   60f2a9ce9a420d1f6534546bfc3464bd014075d6:
   - .renku/workflow/912d451d10f04c4e8c1d3a25e8162668_python.yaml
+sitecustomize.py:
+  4a23f1d394db03fe3f86bfe7559df9e7dc21f64d:
+  - .renku/workflow/d7d7d7858fe64b7d95bb370551a1665e_python.yaml
 test-output.txt:
   14062e7317f62d9ed89bf868c153c042cc5c9b6d:
   - .renku/workflow/b19912863ea340298e2021f4d231db94_python.yaml
   - .renku/workflow/08ac810b461048739d32b1f3017ac65f_python.yaml
   - .renku/workflow/7e46701f84d2483c93e3f6dcf3d11212_python.yaml
   - .renku/workflow/912d451d10f04c4e8c1d3a25e8162668_python.yaml
+  - .renku/workflow/d7d7d7858fe64b7d95bb370551a1665e_python.yaml
