@@ -1,8 +1,8 @@
-'@id': https://renkulab.io/projects/vladimir.savchenko/oda-sdss
+'@id': https://github.com/projects/volodymyrss/renku-aqs-test-case
 '@type':
 - http://schema.org/Project
 - http://www.w3.org/ns/prov#Location
-http://schema.org/agent: 0.14.0
+http://schema.org/agent: ''
 http://schema.org/creator:
   '@id': mailto:vladimir.savchenko@gmail.com
   '@type':
