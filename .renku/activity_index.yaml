@@ -40,3 +40,4 @@ test-output.txt:
   - .renku/workflow/de65062dca5947038fd298518a0d74e7_python.yaml
   - .renku/workflow/3a5d778a18414acd977e493289d65f16_python.yaml
   - .renku/workflow/f74b569d88934eaabfe2c10d9c2c8abe_python.yaml
+  - .renku/workflow/dd6259c13b8e487f8e13fc49645310cf_python.yaml
