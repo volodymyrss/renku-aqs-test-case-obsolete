@@ -39,6 +39,7 @@ test-output.txt:
   - .renku/workflow/6bf8b10bbbf44a8d8a1a23fb08b6045c_python.yaml
   - .renku/workflow/b105cfc27c2d49118b411a79aa1e1826_python.yaml
   - .renku/workflow/1e4322cb398e4cb59bd6812f44bd88bd_python.yaml
+  - .renku/workflow/1988c374e9624e6cade2f0bef7c122b4_python.yaml
   14062e7317f62d9ed89bf868c153c042cc5c9b6d:
   - .renku/workflow/b19912863ea340298e2021f4d231db94_python.yaml
   - .renku/workflow/08ac810b461048739d32b1f3017ac65f_python.yaml
