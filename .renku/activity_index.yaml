@@ -1,6 +1,8 @@
 a:
   08fc38b7974d7e65e66a85a7dd70b0581d15c02e:
   - .renku/workflow/3d357742c256429aba9a1824fbc90c01_papermill.yaml
+  31023838243e3302918160e773e00c4ec2d86c59:
+  - .renku/workflow/b320afa7ab5343838ba7fe6dffce62e3_papermill.yaml
   da0b027b95b88ad5e5c6385ca3b3c2e56623fa79:
   - .renku/workflow/9d32e5b1e3e84369ac7682f90ac86458_papermill.yaml
 figs/figure_sky.png:
