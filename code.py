@@ -5,7 +5,7 @@ import astroquery.legacysurvey
 
 print(astroquery.utils.process_asyncs._original_async_to_sync)
 
-r = astroquery.legacysurvey.LegacySurvey.query_object("Crab")
+r = astroquery.legacysurvey.LegacySurvey.query_region("Crab")
 
 print("astroquery returns:", r)
 
