@@ -36,6 +36,7 @@ sitecustomize.py:
 test-output.txt:
   0b8bc5b05be823c32200a0b72a7955837eaf8ee5:
   - .renku/workflow/8a2b937d1f0041ff82a0320552b2a736_python.yaml
+  - .renku/workflow/6bf8b10bbbf44a8d8a1a23fb08b6045c_python.yaml
   14062e7317f62d9ed89bf868c153c042cc5c9b6d:
   - .renku/workflow/b19912863ea340298e2021f4d231db94_python.yaml
   - .renku/workflow/08ac810b461048739d32b1f3017ac65f_python.yaml
