@@ -5,6 +5,7 @@ import astroquery.legacysurvey
 
 print(astroquery.utils.process_asyncs._original_async_to_sync)
 print(astroquery.utils.process_asyncs.async_to_sync)
+print(astroquery.legacysurvey.LegacySurvey.query_object)
 
 r = astroquery.legacysurvey.LegacySurvey.query_object("nothing")
 
