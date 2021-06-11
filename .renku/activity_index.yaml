@@ -26,6 +26,9 @@ out.ipynb:
   - .renku/workflow/f62f387c51fe4208941c0b1b844ba99b_papermill.yaml
   c368bc974b5599aeea53f4c42b929b89d6e4f69b:
   - .renku/workflow/78994a29839143039ea8981e51472db6_papermill.yaml
+output.ipynb:
+  488e3c7ba4c277953f727cef3c24c3dd85e33c49:
+  - .renku/workflow/e62ea0b8ac4f40d1bba7ac7ecd82e455_papermill.yaml
 site.py:
   60f2a9ce9a420d1f6534546bfc3464bd014075d6:
   - .renku/workflow/912d451d10f04c4e8c1d3a25e8162668_python.yaml
