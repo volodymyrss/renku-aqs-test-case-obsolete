@@ -335,3 +335,5 @@ tags
 .renku.lock
 .renku/tmp
 .renku/cache
+
+.renku/aq
