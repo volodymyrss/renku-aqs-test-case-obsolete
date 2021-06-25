@@ -46,6 +46,8 @@ out.ipynb:
   - .renku/workflow/c43c475c49204c4cb913cf866dfe6a0a_papermill.yaml
   a775b1cac7defb3d50f68442f464c1c9098c8afe:
   - .renku/workflow/8360a655f269408e8518b57246db82ec_papermill.yaml
+  a9b28f306a55ac93530297c9a8200ab2de98f0c7:
+  - .renku/workflow/afcf5b736c2f4e0d829f899db444bcf4_papermill.yaml
   a9ce2eb80baeada894e666d054dc195fc64a26e7:
   - .renku/workflow/22ea4788f2fb4ef380332a27fbe8d16d_papermill.yaml
   b8fda5499b98996c108f21c400ae893757eff6d8:
@@ -99,6 +101,7 @@ test-output.txt:
   - .renku/workflow/33d639b143cf4cddad837aa8687dda23_papermill.yaml
   - .renku/workflow/c43c475c49204c4cb913cf866dfe6a0a_papermill.yaml
   - .renku/workflow/22ea4788f2fb4ef380332a27fbe8d16d_papermill.yaml
+  - .renku/workflow/afcf5b736c2f4e0d829f899db444bcf4_papermill.yaml
   14062e7317f62d9ed89bf868c153c042cc5c9b6d:
   - .renku/workflow/b19912863ea340298e2021f4d231db94_python.yaml
   - .renku/workflow/08ac810b461048739d32b1f3017ac65f_python.yaml
