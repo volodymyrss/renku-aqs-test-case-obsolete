@@ -1,7 +1,7 @@
 import click
 
 @click.command()
-@click.argument("ra", type=float)
+@click.option("-r", "--ra", type=float, default=0)
 @click.option("-a", "--autolog", is_flag=True)
 def cli(ra, autolog):
     if autolog:
