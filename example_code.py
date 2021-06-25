@@ -7,11 +7,12 @@ def cli(ra, autolog):
     if autolog:
         import aqsconverters.aq 
         aqsconverters.aq.autolog()
+    
+    import astroquery.simbad
+    r = astroquery.simbad.Simbad.query_object("Mrk 421")
 
     import astroquery.sdss
-
     print(astroquery.sdss.SDSS.query_region)
-
     r = astroquery.sdss.SDSS.query_region(f"{ra} 0", radius="0.001 deg")
 
     print("astroquery returns:", r)
