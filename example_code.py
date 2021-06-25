@@ -1,13 +1,22 @@
-#from astropy.coordinates import SkyCoord
-import astroquery.legacysurvey
+import click
 
-#astroquery.legacysurvey.LegacySurvey.query_object_async(SkyCoord(83,22, unit="deg"))
+@click.command()
+@click.argument("ra", type=float)
+@click.option("-a", "--autolog", is_flag=True)
+def cli(ra, autolog):
+    if autolog:
+        import aqsconverters.aq 
+        aqsconverters.aq.autolog()
 
-print(astroquery.legacysurvey.LegacySurvey.query_object)
+    import astroquery.sdss
 
-r = astroquery.legacysurvey.LegacySurvey.query_object("nothing")
+    print(astroquery.sdss.SDSS.query_region)
 
-print("astroquery returns:", r)
+    r = astroquery.sdss.SDSS.query_region(f"{ra} 0", radius="0.001 deg")
 
-open("test-output.txt", "w").write("test!" + str(astroquery.hooked))
+    print("astroquery returns:", r)
 
+    open("test-output.txt", "w").write("test!" + str(getattr(astroquery, 'hooked')))
+
+
+cli()
