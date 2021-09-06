@@ -1,0 +1,28 @@
+'@id': https://github.com/projects/volodymyrss/renku-aqs-test-case
+'@type':
+- http://schema.org/Project
+- http://www.w3.org/ns/prov#Location
+http://schema.org/agent: 0.16.0
+http://schema.org/creator:
+  '@id': mailto:contact@volodymyrsavchenko.com
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/affiliation: null
+  http://schema.org/alternateName: null
+  http://schema.org/email: contact@volodymyrsavchenko.com
+  http://schema.org/name: Volodymyr Savchenko
+  http://www.w3.org/2000/01/rdf-schema#label: Volodymyr Savchenko
+http://schema.org/dateCreated: '2021-09-06T14:40:44.924309+00:00'
+http://schema.org/name: renku-aqs-test-case
+http://schema.org/schemaVersion: '8'
+https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate: false
+https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+https://swissdatasciencecenter.github.io/renku-ontology#templateId: python-minimal
+https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata: '{"description":
+  "", "__template_source__": "renku", "__template_ref__": null, "__template_id__":
+  "python-minimal", "__namespace__": "", "__sanitized_project_name__": "", "__repository__":
+  "", "__project_slug__": "", "__renku_version__": "0.16.0", "name": "renku-aqs-test-case"}'
+https://swissdatasciencecenter.github.io/renku-ontology#templateReference: null
+https://swissdatasciencecenter.github.io/renku-ontology#templateSource: renku
+https://swissdatasciencecenter.github.io/renku-ontology#templateVersion: 0.16.0
